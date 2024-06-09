@@ -1,0 +1,122 @@
+.header{
+  background-color: rgb(0,0,0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+.header-left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 180px;
+}
+.logo{
+  width:100px;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.logo:hover{
+  border: 1px solid rgba(255, 255, 255);
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+.header-middle-section{
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  padding: 10px 10px;
+}
+.search-bar input{
+    flex: 1;
+    padding:12px 580px 12px 12px; 
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: 15px;
+}
+.search-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
+.search-icon button{
+  height: 41.3px;
+  width: 48px;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: rgba(243, 180, 65, 0.997);
+}
+.search-icon img{
+  height: 20px;
+  width: 20px;
+}
+.header-right-section{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: arial;
+  margin-right: 10px;
+  justify-content: end;
+  align-items: center;
+  flex-shrink: 0;
+}
+.orders-button{
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.returns{
+  font-size: 14px;
+  font-family: arial;
+}
+.orders{
+  font-weight: bold;
+}
+.return-order-link {
+  text-decoration: none;
+  color: white;
+}
+.orders-button:hover{
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 1px;
+} 
+.cart{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0px;
+}
+.cart:hover{
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 2px;
+} 
+.cart-icon{
+  width: 50px;
+}
+.cart-items{
+ font-size: 16px;
+ font-weight: bold;
+ position:absolute;
+ top: 10px;
+ right: 60px;
+ width: 25px;
+ text-align: center;
+ color: rgba(240, 136,4); 
+} 
+.cart-text{
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+} 

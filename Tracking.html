@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles/Amazon-header.css">
+        <link rel="stylesheet" href="Styles/general.css">
+        <link rel="stylesheet" href="Styles/Tracking.css">
+        <title>
+            Tracking
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-left-section">
+             <a href = "Amazon.html"><img class="logo" src="images/website-logo.jpeg"></a>
+            </div>
+            <div class="header-middle-section">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="search-icon">
+                    <button><img src="images/icons/search-icon.png"></button>
+                </div>
+            </div>
+            <div class="header-right-section">
+                <a class="return-order-link" href="Orders.html">
+                    <div class="orders-button">
+                        <div class="returns">Returns</div>
+                        <div class="orders">&Orders</div>
+                    </div>
+                </a>
+                    
+                </div>
+                <a class= "cart" href = "Checkout.html">
+                    <img  class="cart-icon" src="images\icons\cart-icon.png">
+                    <div class="cart-items js-cart-items"></div>
+                    <div class="cart-text"><b>Cart</b></div>
+                </a>
+            </div>
+          </div>
+
+        <div class="main product-tracking">
+         
+        </div>
+
+        <!-- //to get the parameters out of the url, we can use a built in class called URL()
+         // window.location.href gets the url of the current web page
+         // this URL class analyzes the URL that we give it and breaks it down to different parts
+         // one of the parts are URL Parameters
+         // to get the parameters we use a property called "url.searchParams"
+         // "URL Parameters" are also called "Search Paramters" -->
+        <script type = "module" src="Scripts/tracking.js"></script>
+      </body>
+</html>    

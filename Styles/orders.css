@@ -1,0 +1,107 @@
+.main{
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order-page{
+  font-family: arial;
+  margin-top: 80px;
+  position: relative;
+  left: 0;
+  padding-bottom: 700px;
+}
+.order-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: 30px; 
+}
+.order-info{
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  padding: 20px 20px;
+  margin-left: 150px;
+  margin-right: 250px;
+  justify-content: space-between;
+}
+.order-info span{
+  font-weight: bold;
+}
+.order-date{
+  width: 150px;
+}
+.order-price{
+  width: 60px;
+}
+.orderID{
+  width: 130px;
+}
+.order-header{
+  display: flex;
+  background-color: rgba(95,95,95,0.15);
+  margin-left: 150px;
+  margin-right: 230px;
+  justify-content: space-between;
+  border: 1px solid rgba(95,95,95,0.15);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px 20px;
+  align-items: center;
+}
+.order-header-leftsection{
+  display: flex;
+}
+.order-header-lable{
+  font-weight: bold;
+}
+.order-items-flex{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 230px;
+  border: 1px solid rgba(95, 95, 95, 0.15);
+}
+.order-items-flex .item-description{
+  line-height: 25px;
+  width: 300px;
+}
+.order-items-flex .item-description .item-title{
+  font-weight: bold
+}
+.order-items-flex .item-description button{
+  background-color: rgba(243, 180, 65, 0.997);
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.item-image{
+  padding-right: 50px;
+}
+.item-image img{
+  width: 100px;
+}
+
+
+.track-package button{
+  padding: 8px 50px;
+  border: 1px solid rgba(95, 95, 95, 0.15);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow:  1px 2px 3px rgba(95, 95, 95, 0.15);
+  cursor: pointer;
+}
+.order-container{
+  margin-bottom: 50px;
+}
+.item-details{
+  display: flex;
+  flex-direction: columuns;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
